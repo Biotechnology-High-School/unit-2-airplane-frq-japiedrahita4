@@ -23,7 +23,20 @@ public class AirTrafficControl{
          *  Then write code to get inputs of the correct type for each field for the third plane.
          */
 new Airplane1 = Airplane();
-new Airplane2 = Airplane(
+new Airplane2 = Airplane("AAA02", 15.8, 128, 30,000);
+double x = Airplane2.distTo(Airplane3);
+Airplane1.move(x, 65);
+Airplane2.move(8.0, 135);
+Airplane3.move(5.0, 55);
+Airplane1.gainAlt();
+Airplane1.gainAlt();
+Airplane1.gainAlt();
+Airplane2.loseAlt();
+Airplane2.loseAlt();
+Airplane3.loseAlt();
+Airplane3.loseAlt();
+Airplane3.loseAlt();
+Airplane3.loseAlt();
 
 
 
