@@ -22,7 +22,8 @@ public class AirTrafficControl{
          *  Write a constructor call to create a second plane with the non-default values.
          *  Then write code to get inputs of the correct type for each field for the third plane.
          */
-
+new Airplane1 = Airplane();
+new Airplane2 = Airplane(
 
 
 
